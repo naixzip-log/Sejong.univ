@@ -1,0 +1,70 @@
+/* 최소사이즈 1400px */
+
+/* desktop */
+@media screen and (min-width: 1024px){
+    /* 1,2,3,4,5,6,10 column grid */
+    
+    /* 12컬럼 그리드 */
+    .pcol01{ float: left; width: 8.33% } /* 1/12 */
+    .pcol02{ float: left; width: 16.66% } /* 2/12 */
+    .pcol03{ float: left; width: 25% } /* 3/12 */
+    .pcol04{ float: left; width: 33.33% } /* 4/12 */
+    .pcol05{ float: left; width: 41.66% } /* 5/12 */
+    .pcol06{ float: left; width: 50% } /* 6/12 */
+    .pcol07{ float: left; width: 58.33% } /* 7/12 */
+    .pcol08{ float: left; width: 66.66% } /* 8/12 */
+    .pcol09{ float: left; width: 75% } /* 9/12 */
+    .pcol10{ float: left; width: 83.33% } /* 10/12 */
+    .pcol11{ float: left; width: 91.66% } /* 11/12 */
+    .pcol12{ float: left; width: 100% } /* 12/12 */
+
+    /* 5컬럼, 10컬럼 그리드 */
+    .pcol51{ float: left; width: 20%; } /* 1/5 */
+    .pcol101{ float: left; width: 10%; } /* 1/10 */
+}
+
+/* tablet */
+@media screen and (max-width: 1023px){
+    /* 1,2,3,4,5,6,10 column grid */
+    
+    /* 12컬럼 그리드 */
+    .tcol01{ float: left; width: 8.33% } /* 1/12 */
+    .tcol02{ float: left; width: 16.66% } /* 2/12 */
+    .tcol03{ float: left; width: 25% } /* 3/12 */
+    .tcol04{ float: left; width: 33.33% } /* 4/12 */
+    .tcol05{ float: left; width: 41.66% } /* 5/12 */
+    .tcol06{ float: left; width: 50% } /* 6/12 */
+    .tcol07{ float: left; width: 58.33% } /* 7/12 */
+    .tcol08{ float: left; width: 66.66% } /* 8/12 */
+    .tcol09{ float: left; width: 75% } /* 9/12 */
+    .tcol10{ float: left; width: 83.33% } /* 10/12 */
+    .tcol11{ float: left; width: 91.66% } /* 11/12 */
+    .tcol12{ float: left; width: 100% } /* 12/12 */
+
+    /* 5컬럼, 10컬럼 그리드 */
+    .tcol51{ float: left; width: 20%; } /* 1/5 */
+    .tcol101{ float: left; width: 10%; } /* 1/10 */
+}
+
+/* mobile */
+@media screen and (max-width: 767px){
+    /* 1,2,3,4,5,6,10 column grid */
+    
+    /* 12컬럼 그리드 */
+    .mcol01{ float: left; width: 8.33% } /* 1/12 */
+    .mcol02{ float: left; width: 16.66% } /* 2/12 */
+    .mcol03{ float: left; width: 25% } /* 3/12 */
+    .mcol04{ float: left; width: 33.33% } /* 4/12 */
+    .mcol05{ float: left; width: 41.66% } /* 5/12 */
+    .mcol06{ float: left; width: 50% } /* 6/12 */
+    .mcol07{ float: left; width: 58.33% } /* 7/12 */
+    .mcol08{ float: left; width: 66.66% } /* 8/12 */
+    .mcol09{ float: left; width: 75% } /* 9/12 */
+    .mcol10{ float: left; width: 83.33% } /* 10/12 */
+    .mcol11{ float: left; width: 91.66% } /* 11/12 */
+    .mcol12{ float: left; width: 100% } /* 12/12 */
+
+    /* 5컬럼, 10컬럼 그리드 */
+    .mcol51{ float: left; width: 20%; } /* 1/5 */
+    .mcol101{ float: left; width: 10%; } /* 1/10 */
+}
